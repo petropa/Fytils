@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.stoopi_poopy.whatdoesthisfolderdo.fytils"
+      "net.stoopi_poopy.fytils"
     ]
   },
   "mixins": [

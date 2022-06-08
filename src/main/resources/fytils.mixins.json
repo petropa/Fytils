@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.stoopi_poopy.whatdoesthisfolderdo.fytils",
+  "package": "net.stoopi_poopy.fytils",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
