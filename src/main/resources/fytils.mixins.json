@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.stoopi_poopy.fytils",
+  "package": "net.stoopipoopy.fytils.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "FytilsMainMixin"
   ],
   "injectors": {
     "defaultRequire": 1
