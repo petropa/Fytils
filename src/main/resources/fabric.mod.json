@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.stoopipoopy.fytils.FytilsMain"
+    ],
+    "client": [
+      "net.stoopipoopy.fytils.ClientEntrypoint"
     ]
   },
   "mixins": [
