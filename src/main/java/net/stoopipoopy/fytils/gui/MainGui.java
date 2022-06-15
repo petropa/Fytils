@@ -15,12 +15,12 @@ public class MainGui extends LightweightGuiDescription {
     public MainGui(){
         WGridPanel root = new WGridPanel(10);
         setRootPanel(root);
-        root.setSize(240,120);
+        root.setSize(340,220);
         WLabel welcomeLabel = new WLabel(new LiteralText("Welcome to Fytils!"));
         WLabel descriptionLabel = new WLabel(new LiteralText("Fytils is the one and only utility mod for dungeonfy!"));
         root.canResize();
-        root.add(welcomeLabel,6,1);
-        root.add(descriptionLabel,0,3,1,1);
+        root.add(welcomeLabel,340/20,1,0,0);
+        root.add(descriptionLabel,0,3,0,0);
 
     }
 }
