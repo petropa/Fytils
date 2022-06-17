@@ -8,6 +8,8 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.LiteralText;
+import net.stoopipoopy.fytils.gui.LoreGui;
+import net.stoopipoopy.fytils.gui.LoreScreen;
 import net.stoopipoopy.fytils.gui.MainGui;
 import net.stoopipoopy.fytils.gui.MainScreen;
 import org.lwjgl.glfw.GLFW;
@@ -23,9 +25,9 @@ public class ClientEntrypoint implements ClientModInitializer {
     public void onInitializeClient() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (keyBinding.wasPressed()) {
-                //client.player.sendMessage(new LiteralText("Test"), false);
+                //client.player.sendMessage(new LiteralText("Test"), false)
                 MinecraftClient.getInstance().setScreen(new MainScreen(new MainGui()));
-
+                MinecraftClient.getInstance().setScreen(new LoreScreen(MainGui.loregui));
             }
         });
         // Event registration will be executed inside this method
